@@ -1,5 +1,5 @@
 var cacheName = 'piac-pwa';
-var filesToCache = ['/','/index.html','/style.css','/js/main.js', 'images/pwa-icon-128.png'];
+var filesToCache = ['/','/index.html','/style.css','/js/main.js', 'images/pwa-icon-256.png'];
 
 self.addEventListener('install', function(e) {
 	e.waitUntil(caches.open(cacheName).then(function(cache) {
