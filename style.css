@@ -30,6 +30,13 @@ p{
     font-size: calc(20% + 0.8vw + 0.8vh);
 }
 
+img {
+    max-width: 100%;
+    width: 256px;
+    height: 256px;
+    display: block;
+}
+
 .title{
     font-family: comic-sansa;
     font-style: italic;
