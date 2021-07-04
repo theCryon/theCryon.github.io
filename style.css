@@ -1,19 +1,73 @@
-html,body{
-	font-family: sans-serif;
-	text-align: center;
-	height: 100%;
-	margin: 0;
-	padding: 0;
-	width: 100%;
+body{
+    text-align: center;
 }
-.container {
-	margin: auto;
-	text-align: center;
-}
+
 main{
-	padding: 2rem;
-	font-size: 1rem;
+    padding: 7rem;
+    padding-top: calc(20% + 1vw + 1vh);
+    font-size: 1rem;
+    background-color: #9ef7ad;
 }
-.title {
-	font-size: 3rem;
+
+a:link{
+    color: #1ef741;
+    text-decoration: none;
 }
+
+a:visited{
+    color: black;
+}
+
+a:hover{
+    color: yellow !important;
+    text-decoration: underline;
+}
+
+p{
+    font-family: comic-sansa;
+    text-align: center;
+    line-height: 2.5rem;
+    font-size: calc(20% + 0.8vw + 0.8vh);
+}
+
+.title{
+    font-family: comic-sansa;
+    font-style: italic;
+    font-weight: bold;
+    font-size: calc(40% + 1vw + 1vh);
+}
+
+.buy{
+    font-family: comic-sansa;
+    font-weight: bold;
+    font-size: calc(40% + 0.8vw + 0.8vh);  
+}
+
+.row{
+    padding-top: 2rem;
+    height: 5rem;
+}
+
+.col{
+    height: 5rem;
+    padding: 1rem;
+    text-align: center;
+    font-family: comic-sansa;
+    font-style: italic;
+    font-size: calc(100% + 1vw + 1vh);
+   
+}
+
+.p-2{
+    background-color: #5ce673;
+    border-radius: 2px;
+    cursor: pointer;
+}
+
+.p-2:hover{
+    border: 2px dashed white;
+    background-color: #52cc66;
+}
+
+
+
